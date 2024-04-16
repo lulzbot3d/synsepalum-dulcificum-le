@@ -103,11 +103,11 @@ class DulcificumConan(ConanFile):
         if self.options.with_apps:
             self.requires("docopt.cpp/0.6.3")
         if self.options.with_python_bindings:
-            self.requires("cpython/3.10.4@ultimaker/stable")
+            self.requires("cpython/3.10.4@lulzbot/stable")
             self.requires("pybind11/2.10.4")
 
     def build_requirements(self):
-        self.test_requires("standardprojectsettings/[>=0.1.0]@ultimaker/stable")
+        self.test_requires("standardprojectsettings/[>=0.1.0]@lulzbot/stable")
         if self._run_tests:
             self.test_requires("gtest/[>=1.12.1]")
 
