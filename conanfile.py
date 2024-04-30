@@ -17,10 +17,10 @@ required_conan_version = ">=1.58.0 <2.0.0"
 class DulcificumConan(ConanFile):
     name = "dulcificum"
     description = "Dulcificum changes the flavor, or dialect, of 3d printer commands"
-    author = "UltiMaker"
+    author = "LulzBot"
     license = ""
-    url = "https://github.com/Ultimaker/synsepalum-dulcificum"
-    homepage = "https://ultimaker.com"
+    url = "https://github.com/lulzbot3d/synsepalum-dulcificum-le"
+    homepage = "https://lulzbot.com"
     topics = ("cura", "curaengine", "gcode-generation", "3D-printing", "miraclegrue", "toolpath")
     package_type = "library"
     settings = "os", "arch", "compiler", "build_type"
